@@ -1,0 +1,29 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="JsonStandardCompliance" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W292" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="testcase.test_calc.ddt" />
+          <option value="ddt" />
+          <option value="src.ddt.unpack" />
+          <option value="pytest" />
+          <option value="test_fixture" />
+          <option value="selenum" />
+          <option value="test_po.TestContact.*" />
+          <option value="test_po.wework_page.webdriver" />
+          <option value="test_po.contact_page.Webdriver" />
+          <option value="test_po.contact_page._username" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
